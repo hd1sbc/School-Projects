@@ -1,0 +1,44 @@
+RK,NAME,TEAM,SALARY
+1,"Stephen Curry, PG",Golden State Warriors,40231758
+2,"Russell Westbrook, PG",Houston Rockets,38506482
+3,"Chris Paul, PG",Oklahoma City Thunder,38506482
+4,"Kevin Durant, PF",Phoenix Suns,38199000
+5,"James Harden, SG",Houston Rockets,38199000
+6,"John Wall, PG",Houston Rockets,38199000
+7,"LeBron James, SF",Los Angeles Lakers,37436858
+8,"Kyle Lowry, PG",Toronto Raptors,34996296
+9,"Blake Griffin, PF",Detroit Pistons,34449964
+10,"Tobias Harris, PF",Philadelphia 76ers,32742000
+RK,NAME,TEAM,SALARY
+11,"Jimmy Butler, SF",Miami Heat,32742000
+12,"Kawhi Leonard, SF",LA Clippers,32742000
+13,"Klay Thompson, SG",Golden State Warriors,32742000
+14,"Kemba Walker, PG",Boston Celtics,32742000
+15,"Gordon Hayward, SF",Boston Celtics,32700690
+16,"Mike Conley, PG",Utah Jazz,32511624
+17,"Kyrie Irving, PG",Brooklyn Nets,31742000
+18,"Khris Middleton, SF",Milwaukee Bucks,30603448
+19,"Paul George, F",LA Clippers,30560700
+20,"Paul Millsap, PF",Denver Nuggets,30350000
+RK,NAME,TEAM,SALARY
+21,"Damian Lillard, PG",Portland Trail Blazers,29802321
+22,"Kevin Love, PF",Cleveland Cavaliers,28942830
+23,"Nikola Vucevic, C",Orlando Magic,28000000
+24,"Al Horford, C",Philadelphia 76ers,28000000
+25,"DeMar DeRozan, SF",San Antonio Spurs,27739975
+26,"CJ McCollum, SG",Portland Trail Blazers,27556959
+27,"Joel Embiid, C",Philadelphia 76ers,27504630
+28,"Andrew Wiggins, SF",Golden State Warriors,27504630
+29,"Nikola Jokic, C",Denver Nuggets,27504630
+30,"Devin Booker, SG",Phoenix Suns,27285000
+RK,NAME,TEAM,SALARY
+31,"Karl-Anthony Towns, C",Minnesota Timberwolves,27285000
+32,"D'Angelo Russell, PG",Minnesota Timberwolves,27285000
+33,"Kristaps Porzingis, C",Dallas Mavericks,27285000
+34,"Otto Porter Jr., SF",Chicago Bulls,27250575
+35,"Bradley Beal, SG",Washington Wizards,27093019
+36,"Andre Drummond, C",Cleveland Cavaliers,27093019
+37,"Anthony Davis, PF",Los Angeles Lakers,27093018
+38,"Hassan Whiteside, C",Portland Trail Blazers,27093017
+39,"Jrue Holiday, PG",New Orleans Pelicans,26231111
+40,"LaMarcus Aldridge, C",San Antonio Spurs,26000000

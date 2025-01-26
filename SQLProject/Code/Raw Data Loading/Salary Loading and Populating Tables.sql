@@ -1,0 +1,158 @@
+CREATE SCHEMA IF NOT EXISTS ProjectRawData;
+USE ProjectRawData;
+-- show variables like '%secure_file_priv%';  -- cut/copy data into result from this query
+
+-- 1
+CREATE TABLE IF NOT EXISTS Sal_20_21 (
+	`Rank` INT PRIMARY KEY,
+	Name VARCHAR(100),
+    Team VARCHAR(100),
+    Salary INT
+);
+LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Top 40 Salaries CSV\\1. 2020-21 NBA Top 40 Salaries.csv' IGNORE
+INTO TABLE Sal_20_21
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+;
+
+
+-- 2
+CREATE TABLE IF NOT EXISTS Sal_19_20 (
+	`Rank` INT PRIMARY KEY,
+	Name VARCHAR(100),
+    Team VARCHAR(100),
+    Salary INT
+);
+LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Top 40 Salaries CSV\\2. 2019-20 NBA Top 40 Salaries.csv' IGNORE
+INTO TABLE Sal_19_20
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+;
+
+-- 3
+CREATE TABLE IF NOT EXISTS Sal_18_19 (
+	`Rank` INT PRIMARY KEY,
+	Name VARCHAR(100),
+    Team VARCHAR(100),
+    Salary INT
+);
+LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Top 40 Salaries CSV\\3. 2018-19 NBA Top 40 Salaries.csv' IGNORE
+INTO TABLE Sal_18_19
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+;
+
+-- 4
+CREATE TABLE IF NOT EXISTS Sal_17_18 (
+	`Rank` INT PRIMARY KEY,
+	Name VARCHAR(100),
+    Team VARCHAR(100),
+    Salary INT
+);
+LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Top 40 Salaries CSV\\4. 2017-18 NBA Top 40 Salaries.csv' IGNORE
+INTO TABLE Sal_17_18
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+;
+
+-- 5
+CREATE TABLE IF NOT EXISTS Sal_16_17 (
+	`Rank` INT PRIMARY KEY,
+	Name VARCHAR(100),
+    Team VARCHAR(100),
+    Salary INT
+);
+LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Top 40 Salaries CSV\\5. 2016-17 NBA Top 40 Salaries.csv' IGNORE
+INTO TABLE Sal_16_17
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+;
+
+-- 6
+CREATE TABLE IF NOT EXISTS Sal_15_16 (
+	`Rank` INT PRIMARY KEY,
+	Name VARCHAR(100),
+    Team VARCHAR(100),
+    Salary INT
+);
+LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Top 40 Salaries CSV\\6. 2015-16 NBA Top 40 Salaries.csv' IGNORE
+INTO TABLE Sal_15_16
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+;
+
+-- 7
+CREATE TABLE IF NOT EXISTS Sal_14_15 (
+	`Rank` INT PRIMARY KEY,
+	Name VARCHAR(100),
+    Team VARCHAR(100),
+    Salary INT
+);
+LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Top 40 Salaries CSV\\7. 2014-15 NBA Top 40 Salaries.csv' IGNORE
+INTO TABLE Sal_14_15
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+;
+
+-- 8
+CREATE TABLE IF NOT EXISTS Sal_13_14 (
+	`Rank` INT PRIMARY KEY,
+	Name VARCHAR(100),
+    Team VARCHAR(100),
+    Salary INT
+);
+LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Top 40 Salaries CSV\\8. 2013-14 NBA Top 40 Salaries.csv' IGNORE
+INTO TABLE Sal_13_14
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+;
+
+-- 9
+CREATE TABLE IF NOT EXISTS Sal_12_13 (
+	`Rank` INT PRIMARY KEY,
+	Name VARCHAR(100),
+    Team VARCHAR(100),
+    Salary INT
+);
+LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Top 40 Salaries CSV\\9. 2012-13 NBA Top 40 Salaries.csv' IGNORE
+INTO TABLE Sal_12_13
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+;
+
+-- 10
+CREATE TABLE IF NOT EXISTS Sal_11_12 (
+	`Rank` INT PRIMARY KEY,
+	Name VARCHAR(100),
+    Team VARCHAR(100),
+    Salary INT
+);
+LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Top 40 Salaries CSV\\10. 2011-12 NBA Top 40 Salaries.csv' IGNORE
+INTO TABLE Sal_11_12
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+;
+
+-- 11
+CREATE TABLE IF NOT EXISTS Sal_10_11 (
+	`Rank` INT PRIMARY KEY,
+	Name VARCHAR(100),
+    Team VARCHAR(100),
+    Salary INT
+);
+LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Top 40 Salaries CSV\\11. 2010-11 NBA Top 40 Salaries.csv' IGNORE
+INTO TABLE Sal_10_11
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+;

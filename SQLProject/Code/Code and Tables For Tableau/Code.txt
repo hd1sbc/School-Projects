@@ -1,0 +1,18 @@
+-- Team rev by impact players, expected impact players, and points scored from actual impact players
+USE transformed_data;
+
+SELECT tr.Year, tr.Team, Rev, COALESCE(Num_Exp_Impact_Players,0), COALESCE(Num_Actual_Impact_Players,0),
+	COALESCE(Pts_Scored_From_Actual_Impact_Players,0)
+FROM team_rev tr
+LEFT JOIN (
+	SELECT Year, Team, COUNT(Name) AS Num_Exp_Impact_Players
+    FROM sal
+    GROUP BY Year, Team
+) s ON tr.Year = s.Year AND tr.Team = s.Team
+LEFT JOIN (
+	SELECT Year, Team, COUNT(Name) AS Num_Actual_Impact_Players, SUM(Pts) AS Pts_Scored_From_Actual_Impact_Players
+    FROM pts
+    GROUP BY Year, Team
+) pt ON tr.Year = pt.Year AND tr.Team = pt.Team
+;
+

@@ -1,0 +1,11 @@
+USE ProjectRawData;;    
+CREATE TABLE IF NOT EXISTS team_name_abbr(
+	Abr VARCHAR(10),
+    Team VARCHAR(100),
+    PRIMARY KEY (Abr, Team)
+);
+LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Abbreviations And Names.csv'
+INTO TABLE team_name_abbr
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\r\n'
+;
